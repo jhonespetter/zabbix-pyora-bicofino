@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.0</version>
-    <date>2016-08-27T15:48:32Z</date>
+    <date>2016-08-27T16:48:02Z</date>
     <groups>
         <group>
             <name>Templates-JPCORP</name>
@@ -1638,14 +1638,14 @@ Discovery Oracle temp tablespaces - {$HIGH}</description>
                     <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>pyora.py[--username,{$USERNAME},--password,{$PASSWORD},--address,{$ADDRESS},--database,{$DATABASE},query_sysmetrics,User_Transaction_Per_Sec]</key>
-                    <delay>600</delay>
+                    <delay>300</delay>
                     <history>7</history>
                     <trends>90</trends>
                     <status>0</status>
                     <value_type>0</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>1</delta>
+                    <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
